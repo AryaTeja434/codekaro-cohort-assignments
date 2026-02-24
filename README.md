@@ -1,4 +1,3 @@
-# codekaro-cohort-assignments
 
 # CodeKaro Full Stack Cohort Assignments
 
