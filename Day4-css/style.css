@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* card1 */
+.card1{
+    width: 300px;
+    margin: 70px auto;
+}
+.card-img{
+    width: 100%;
+}
+.user{
+    width: 100%;
+    margin-top: -20px;
+}
+.user p{
+    font-size: 15px;
+}
+.user input{
+    width: 80%;
+    padding:10px 30px;
+    margin-bottom: 20px;
+    border: 1px solid skyblue;
+}
+.user button{
+    width:100%;
+    padding:10px 30px;
+    color: white;
+    background-color: rgb(0, 171, 239);
+    border:none;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+/* card2 */
+.card2{
+    width: 300px;
+    margin: 70px auto;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.card2 div{
+    box-sizing: border-box;
+    width:100%;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 7px 20px;
+}
+.arrow{
+    margin-left: 150px;
+}
+
+/* card3 */
+.card3{
+    width: 300px;
+    margin: 70px auto;
+    border:1px solid lightblue;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.card3 label{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-block: 10px;
+}
+.card3 input{
+    padding: 5px 10px ;
+    width: 92%;
+}
+.card3 select{
+    padding: 5px 10px ;
+    width: 100%;
+}
