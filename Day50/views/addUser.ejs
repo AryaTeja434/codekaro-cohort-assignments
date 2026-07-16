@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <div class="max-w-md mx-auto text-center flex flex-col mt-15">
+        <h1 class="text-3xl font-semibold">Enter user details</h1>
+        <form action="/saveUser" method="post" class="flex flex-col items-center gap-2 mt-5 ">
+            <input type="text" name="name" placeholder="Enter your name" class="border border-neutral-300 p-2 rounded-xl w-3/4">
+            <input type="email" name="email" placeholder="user@email" class="border border-neutral-300 p-2 rounded-xl w-3/4">
+            <input type="text" name="img" placeholder="Profile-url" class="border border-neutral-300 p-2 rounded-xl w-3/4">
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
