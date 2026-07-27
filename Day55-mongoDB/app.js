@@ -10,9 +10,9 @@ const app=express()
 app.use(express.urlencoded({extended:true}))
 
 
-MONGODB_USERNAME="dsteja3_db_user"
-MONGODB_PASSWORD="pnlvB657m3EnDnHM"
-MONGODB_URI="mongodb+srv://dsteja3_db_user:pnlvB657m3EnDnHM@cluster0.fusqhxi.mongodb.net/my_db"
+MONGODB_USERNAME=""
+MONGODB_PASSWORD=""
+MONGODB_URI="mongodb+srv://username:password@cluster0.fusqhxi.mongodb.net/my_db"
 
 mongoose.connect(MONGODB_URI).then(()=>{
     console.log("DB is connected")
